@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+  <rect width="400" height="320" fill="none"/>
+  <!-- Pasaporte estilizado -->
+  <g transform="translate(60, 60) rotate(-8 90 110)">
+    <rect x="0" y="0" width="180" height="220" rx="6" fill="#0B2A4A" stroke="#B08D57" stroke-width="2"/>
+    <rect x="10" y="10" width="160" height="200" rx="2" fill="none" stroke="#B08D57" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="90" cy="70" r="22" fill="none" stroke="#B08D57" stroke-width="2"/>
+    <path d="M76 70 L106 70 M90 56 L90 84" stroke="#B08D57" stroke-width="2"/>
+    <text x="90" y="125" font-family="Georgia, serif" font-size="14" fill="#F8F6F1" text-anchor="middle" letter-spacing="2">PASSPORT</text>
+    <rect x="30" y="145" width="120" height="3" fill="#B08D57" opacity="0.5"/>
+    <rect x="30" y="160" width="90" height="3" fill="#B08D57" opacity="0.4"/>
+    <rect x="30" y="175" width="100" height="3" fill="#B08D57" opacity="0.4"/>
+  </g>
+  <!-- Visa / documento -->
+  <g transform="translate(190, 40) rotate(6 100 110)">
+    <rect x="0" y="0" width="170" height="230" rx="3" fill="#F8F6F1" stroke="#B08D57" stroke-width="1.5"/>
+    <rect x="0" y="0" width="170" height="32" fill="#0B2A4A"/>
+    <text x="85" y="22" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#F8F6F1" text-anchor="middle" letter-spacing="2">VISA</text>
+    <rect x="20" y="55" width="130" height="2" fill="#0B2A4A" opacity="0.4"/>
+    <rect x="20" y="75" width="90" height="2" fill="#0B2A4A" opacity="0.3"/>
+    <rect x="20" y="95" width="110" height="2" fill="#0B2A4A" opacity="0.3"/>
+    <circle cx="135" cy="120" r="22" fill="none" stroke="#B08D57" stroke-width="1.5"/>
+    <text x="135" y="126" font-family="Georgia, serif" font-size="9" font-weight="600" fill="#B08D57" text-anchor="middle">APPROVED</text>
+    <rect x="20" y="165" width="40" height="40" fill="none" stroke="#0B2A4A" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <!-- Líneas decorativas -->
+  <line x1="40" y1="290" x2="360" y2="290" stroke="#B08D57" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="60" y1="300" x2="340" y2="300" stroke="#B08D57" stroke-width="1" stroke-opacity="0.2"/>
+</svg>

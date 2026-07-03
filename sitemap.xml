@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nomada.example.com/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/es/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/en/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/es/servicios.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/servicios.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/services.html"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/en/services.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/es/nosotros.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/nosotros.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/about.html"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/en/about.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/es/contacto.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/contact.html"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/en/contact.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/es/faq.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/faq.html"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/en/faq.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/es/blog/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nomada.example.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nomada.example.com/en/blog/"/>
+  </url>
+
+  <url>
+    <loc>https://nomada.example.com/en/blog/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>

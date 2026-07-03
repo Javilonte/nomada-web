@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto · Nómada</title>
+  <meta name="description" content="Solicite una consulta confidencial con Nómada. Atención bilingüe en español e inglés.">
+  <link rel="canonical" href="https://nomada.example.com/es/contacto.html">
+  <link rel="alternate" hreflang="es" href="https://nomada.example.com/es/contacto.html">
+  <link rel="alternate" hreflang="en" href="https://nomada.example.com/en/contact.html">
+
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Nómada - Inicio">
+        <img src="../assets/img/logo-mark.svg" alt="Nómada" class="brand-mark" width="36" height="36">
+        <span>
+          <span class="brand-name">Nómada</span>
+          <span class="brand-tagline">Asesoría Legal</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+
+      <nav class="nav-primary" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="blog/index.html">Recursos</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contacto.html" class="active">Contacto</a>
+
+        <div class="lang-switch" aria-label="Cambiar idioma">
+          <a href="contacto.html" class="active" data-lang="es">ES</a>
+          <span>|</span>
+          <a href="../en/contact.html" data-lang="en">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section section-primary" style="padding: var(--space-8) 0;">
+      <div class="container">
+        <span class="hero-eyebrow">Contacto</span>
+        <h1>Solicite una consulta confidencial</h1>
+        <p class="lead" style="max-width:760px;">Cuéntenos su caso y un abogado del equipo le responderá en menos de 24 horas hábiles.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <h4>Email</h4>
+            <p><a href="mailto:contacto@nomada.example.com">contacto@nomada.example.com</a></p>
+            <p style="margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-muted);">Respuesta en 24 h hábiles</p>
+          </div>
+
+          <div class="contact-card">
+            <h4>Teléfono</h4>
+            <p><a href="tel:+0000000000">+00 000 000 000</a></p>
+            <p style="margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-muted);">Lunes a viernes, 9–18 h</p>
+          </div>
+
+          <div class="contact-card">
+            <h4>Dirección</h4>
+            <p>Av. Principal 123, Piso 4<br>Ciudad, CP 00000</p>
+            <p style="margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-muted);">Citas presenciales con reserva previa</p>
+          </div>
+
+          <div class="contact-card">
+            <h4>Horario</h4>
+            <p>Lun – Vie: 9:00 – 18:00<br>Sáb: 10:00 – 13:00</p>
+            <p style="margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-muted);">Fuera de horario: contact email</p>
+          </div>
+        </div>
+
+        <div class="container-narrow" style="padding:0;">
+          <div class="form">
+            <h2 style="font-size:var(--fs-3xl);">Formulario de consulta</h2>
+            <p>Complete los campos. Recibirá una respuesta a su correo electrónico.</p>
+
+            <form action="mailto:contacto@nomada.example.com?subject=Consulta%20desde%20web%20-%20N%C3%B3mada" method="post" enctype="text/plain">
+
+              <div class="form-row">
+                <div class="form-group" style="margin-bottom:0;">
+                  <label for="nombre">Nombre completo <span class="required">*</span></label>
+                  <input id="nombre" name="nombre" type="text" required autocomplete="name">
+                </div>
+                <div class="form-group" style="margin-bottom:0;">
+                  <label for="email">Correo electrónico <span class="required">*</span></label>
+                  <input id="email" name="email" type="email" required autocomplete="email">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group" style="margin-bottom:0;">
+                  <label for="telefono">Teléfono</label>
+                  <input id="telefono" name="telefono" type="tel" autocomplete="tel">
+                </div>
+                <div class="form-group" style="margin-bottom:0;">
+                  <label for="nacionalidad">Nacionalidad</label>
+                  <input id="nacionalidad" name="nacionalidad" type="text" autocomplete="country-name">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="servicio">Tipo de servicio <span class="required">*</span></label>
+                <select id="servicio" name="servicio" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="visa-turista">Visa de turista</option>
+                  <option value="visa-trabajo">Visa de trabajo</option>
+                  <option value="visa-estudiante">Visa de estudiante</option>
+                  <option value="visa-residencia">Visa de residencia</option>
+                  <option value="reagrupacion">Reagrupación familiar</option>
+                  <option value="pasaporte-emision">Pasaporte — primera emisión</option>
+                  <option value="pasaporte-renovacion">Pasaporte — renovación</option>
+                  <option value="pasaporte-reposicion">Pasaporte — pérdida o robo</option>
+                  <option value="pasaporte-menores">Pasaporte — menores de edad</option>
+                  <option value="apostilla">Apostilla / legalización</option>
+                  <option value="traducciones">Traducciones certificadas</option>
+                  <option value="corporativo">Asesoría corporativa</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="destino">País de destino (si aplica)</label>
+                <input id="destino" name="destino" type="text" placeholder="Ej. España, Estados Unidos">
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Descripción del caso <span class="required">*</span></label>
+                <textarea id="mensaje" name="mensaje" required placeholder="Describa brevemente su situación: tipo de trámite, plazos deseados, circunstancias especiales..."></textarea>
+                <span class="form-help">No incluya datos sensibles (números de documentos, contraseñas). Serán solicitados después.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="idioma">Idioma de preferencia</label>
+                <select id="idioma" name="idioma">
+                  <option value="es">Español</option>
+                  <option value="en">Inglés</option>
+                </select>
+              </div>
+
+              <div class="form-disclaimer">
+                <strong>Aviso:</strong> La información enviada por este formulario tiene carácter preliminar. No constituye inicio de relación profesional ni asesoría legal formal hasta la firma de la hoja de encargo correspondiente.
+              </div>
+
+              <div class="btn-group">
+                <button type="submit" class="btn btn-primary">Enviar consulta</button>
+                <button type="reset" class="btn btn-secondary">Limpiar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MAPA -->
+    <section class="section section-alt" style="padding: var(--space-7) 0;">
+      <div class="container">
+        <div style="text-align:center; max-width:720px; margin:0 auto var(--space-6);">
+          <span class="eyebrow">Ubicación</span>
+          <h2>Dónde encontrarnos</h2>
+        </div>
+        <div style="border:1px solid var(--color-border); border-radius: var(--radius-md); overflow:hidden;">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-3.71%2C40.40%2C-3.69%2C40.42&amp;layer=mapnik&amp;marker=40.41%2C-3.70"
+            width="100%" height="380" frameborder="0" loading="lazy"
+            title="Ubicación de Nómada" style="display:block; background:var(--color-bg-alt);"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Nómada</h3>
+          <p>Bufete especializado en asesoría legal para la obtención de visas y pasaportes. Atención bilingüe con rigor jurídico.</p>
+        </div>
+        <div>
+          <h5>Navegación</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Recursos</h5>
+          <ul class="footer-links">
+            <li><a href="blog/index.html">Blog</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+            <li><a href="servicios.html#tabla">Tiempos y costos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contacto</h5>
+          <ul class="footer-links">
+            <li><a href="mailto:contacto@nomada.example.com">contacto@nomada.example.com</a></li>
+            <li><a href="tel:+0000000000">+00 000 000 000</a></li>
+            <li>Av. Principal 123, Ciudad</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© <span id="year"></span> Nómada Asesoría Legal. Todos los derechos reservados.</span>
+        <div class="footer-legal-links">
+          <a href="#">Aviso legal</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="../assets/js/lang-switch.js"></script>
+  <script src="../assets/js/nav.js"></script>
+</body>
+</html>
